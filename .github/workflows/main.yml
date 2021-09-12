@@ -35,5 +35,9 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
           plugin_lines: yes
+          plugin_screenshot: yes
+          plugin_screenshot_title: Some XKCD 
+          plugin_screenshot_url: https://xkcd.com 
+          plugin_screenshot_selector: "#comic img"
+          plugin_screenshot_background: no        
           plugin_traffic: yes
-          repositories_forks: yes
