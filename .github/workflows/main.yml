@@ -21,12 +21,10 @@ jobs:
           
           plugin_languages: yes
           plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_limit: 8
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 365
           plugin_languages_recent_load: 1000
-          plugin_languages_sections: most-used, recently-used
+          plugin_languages_sections: recently-used
           plugin_languages_threshold: 0%
           
           plugin_lines: yes
