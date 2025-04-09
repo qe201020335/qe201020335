@@ -1,5 +1,5 @@
 # Hello There 👋
-I am making game mods (mainly for Beat Saber) and tools. 
+I am making game mods (mainly for Beat Saber) and small tools that I usually use to automate things.
 
 Also learning Web dev with ReactJS 🍻
 
