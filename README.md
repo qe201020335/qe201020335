@@ -5,7 +5,7 @@ Also learning Web dev with ReactJS 🍻
 
 ## Some notable projects of mine ⬇
 ### Beat Saber Related
-[QuestPatcher CN](https://github.com/std-microblock/QuestPatcher): A special version of the original [QuestPatcher](https://github.com/Lauriethefish/QuestPatcher) with additional features built specifically for modding Quest Beat Saber
+[QuestPatcher CN](https://github.com/BeatSaberCN/QuestPatcher): A special version of the original [QuestPatcher](https://github.com/Lauriethefish/QuestPatcher) with additional features built specifically for modding Quest Beat Saber
 
 [BeatSaberOffsetMigrator](https://github.com/qe201020335/BeatSaberOffsetMigrator): A solution to the controller offset problem caused by the Unity Update (It was **_The Solution_** before they fixed it in 1.40.0)
 
