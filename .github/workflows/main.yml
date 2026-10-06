@@ -13,12 +13,15 @@ jobs:
     steps:
       - uses: gh-metrics/metrics@b594ca3c0c5f4312f9674afb91ca8d7619f9c77d
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-#          committer_token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           user: qe201020335
           template: classic
-          base: header, activity, community, repositories
           config_timezone: America/Toronto
+#          base: header, activity, community, repositories
+          base_indepth: yes
+          repositories_forks: yes
+          repositories_affiliations: owner, collaborator, organization_member
           
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
