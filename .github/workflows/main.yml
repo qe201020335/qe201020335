@@ -2,14 +2,18 @@ name: Metrics
 on:
   schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
-  push: {branches: ["master"]}
+  push:
+    branches:
+      - master
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: gh-metrics/metrics@b594ca3c0c5f4312f9674afb91ca8d7619f9c77d
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 #          committer_token: ${{ secrets.METRICS_TOKEN }}
           user: qe201020335
           template: classic
