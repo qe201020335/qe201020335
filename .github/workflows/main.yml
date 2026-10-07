@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - master
+    paths-ignore:
+      - README.md
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -18,6 +20,8 @@ jobs:
           user: qe201020335
           template: classic
           config_timezone: America/Toronto
+          output_action: none
+          
 #          base: header, activity, community, repositories
           base_indepth: yes
           repositories_forks: yes
@@ -33,7 +37,17 @@ jobs:
           plugin_languages_recent_load: 1000
           plugin_languages_sections: recently-used
           plugin_languages_threshold: 0%
+
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_indepth: yes
           
           plugin_lines: yes
           
           plugin_traffic: yes
+      - uses: actions/upload-artifact@v7
+        with:
+          path: ./github-metrics.svg
+          if-no-files-found: error
+          retention-days: 7
+          archive: false
