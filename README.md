@@ -16,7 +16,7 @@ Also learning Web dev with ReactJS 🍻
 [BeatTogether-DockerCompose](https://github.com/qe201020335/BeatTogether-DockerCompose): A guide on hosting the _scalable_ version of [BeatTogether](https://github.com/BeatTogether/BeatTogether.MasterServer) custom multiplayer server
  
 ### Other things
-[SPT-AKI_CI](https://github.com/qe201020335/SPT-AKI_CI): Scripts for automating the build process of the [SPT](https://sp-tarkov.com/#features) (Single Player Tarkov) project
+[SPT-AKI_CI](https://github.com/qe201020335/SPT-AKI_CI): Scripts for automating the build process of the SPT (Single Player Tarkov) project
 
 [BangumiTools](https://github.com/qe201020335/BangumiTools): Tools and scripts for processing anime files, heavily uses [MKVToolNix](https://mkvtoolnix.download/index.html)'s cli programs
 
