@@ -20,7 +20,7 @@ jobs:
           user: qe201020335
           template: classic
           config_timezone: America/Toronto
-          output_action: none
+#          output_action: none
           
 #          base: header, activity, community, repositories
           base_indepth: yes
@@ -38,7 +38,7 @@ jobs:
           plugin_languages_sections: recently-used
           plugin_languages_threshold: 0%
 
-          plugin_notable: yes
+          plugin_notable: no
           plugin_notable_from: all
           plugin_notable_indepth: yes
           
