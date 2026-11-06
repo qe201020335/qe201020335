@@ -1,8 +1,6 @@
 # Hello There 👋
 I am making game mods (mainly for Beat Saber) and small tools that I usually use to automate things.
 
-Also learning Web dev with ReactJS 🍻
-
 ## Some notable projects of mine ⬇
 ### Beat Saber Related
 [QuestPatcher CN](https://github.com/BeatSaberCN/QuestPatcher): A special version of the original [QuestPatcher](https://github.com/Lauriethefish/QuestPatcher) with additional features built specifically for modding Quest Beat Saber
